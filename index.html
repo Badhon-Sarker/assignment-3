@@ -3,9 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey</title>
+    <title>Hockey's</title>
+
+<!-- daisyui section -->
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+<!-- font-awesome section -->
+
+<script src="https://kit.fontawesome.com/d91fbc38f6.js" crossorigin="anonymous"></script>
+
+
+<!-- google font -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+     <!-- custom colorsection -->
+
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+
+                descrip: '#13131899',
+
+                btbg: '#FF4240'
+
+              }
+            }
+          }
+        }
+      </script>
+
+
+    <style>
+
+        body{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+
+
 </head>
+
+
 <body>
+
+    <header class="container mx-auto">
+
+        <nav>
+
+            <div>
+                <div class="navbar">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>About</a></li>
+                          <li><a>Pages</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Contact</a></li>
+                        </ul>
+                      </div>
+                      <h2 class=" text-2xl font-extrabold lg:text-4xl lg:font-extrabold">Hockey<span class="text-orange-500">'</span>s</h2>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 items-center">
+                           <li><a class="text-btbg">Home</a></li>
+                          <li><a>About</a></li>
+                          <li><a>Pages</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Contact</a></li>
+                      </ul>
+                    </div>
+
+                    
+
+                    <div class="navbar-end lg:flex lg:gap-6">
+
+                        <div class="hidden lg:block text-descrip"><i class="fa-solid fa-magnifying-glass"></i></div>
+
+                        <a class="btn bg-btbg text-white lg:text-xl lg:px-6">Get Ticket</a>
+                      </div>
+                    
+                  </div>
+
+            </div>
+        </nav>
+
+        <!-- banner section -->
+
+        <div>
+
+            <div class="carousel w-full mt-16">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./Images/1.png" class="w-full object-cover" />
+
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img  src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full rounded-lg" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+
+
+              </div>
+        </div>
+
+    </header>
+
+
+    <main class="container mx-auto my-16">
+
+       <!-- professional hockey -->
+
+
+     <div>
+
+        <div class="divider"></div>
+
+        <div class="text-center py-8 ">
+            <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+
+            <p class="font-medium text-descrip mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="mt-12 mb-5 lg:mb-20 flex flex-col lg:flex-row gap-8 p-5">
+            
+            <div class="text-center">
+
+                <div class="radial-progress text-error" style="--value:70;" role="progressbar"><p class="font-semibold">70%</p></div>
+
+                <h4 class="text-xl font-semibold my-4">Prayer Facility</h4>
+
+                <p class="text-descrip ">Amet consectetur. Condimentum dignissim adipiscing.</p>
+
+            </div>
+
+            <div class="text-center">
+
+                <div class="radial-progress text-accent" style="--value:95;" role="progressbar">95%</div>
+
+                <h4 class="text-xl font-semibold my-4">Experienced Coach</h4>
+
+                <p class="text-descrip">Amet consectetur. Condimentum dignissim adipiscing.</p>
+
+            </div>
+
+            <div class="text-center">
+
+                <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+
+                <h4 class="text-xl font-semibold my-4">Senior Player</h4>
+
+                <p class="text-descrip">Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+
+            <div class="text-center">
+
+                <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
+
+                <h4 class="text-xl font-semibold my-4">Training Ground</h4>
+
+                <p class="text-descrip">Amet consectetur. Condimentum dignissim adipiscing.</p>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+     </div>
+
+
+     <!-- program section -->
+
+     <div>
+
+        <div class="divider"></div>
+
+        <!-- program title -->
+
+        <div class="text-center lg:px-60 px-5">
+
+            <h1 class="text-4xl font-extrabold mt-16">Program Sections</h1>
+
+            <p class="font-medium text-descrip mt-6 mb-16">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+
+        </div>
+
+        <div class="divider"></div>
+
+
+        <!-- image -->
+
+        <div>
+
+        </div>
+
+
+     </div>
+
+
+
+
+
+         
+
+       
+        
+        
+
+
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
     
 </body>
 </html>
